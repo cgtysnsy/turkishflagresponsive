@@ -1,0 +1,43 @@
+#flag {background-color: #E30A17;
+    width: 90vw;
+    height: 60vw;
+    margin: auto;
+      position: absolute;
+    }
+    
+    #moon {
+      background-color: #FFFFFF;
+      width: 33%;
+      height: 50%;
+      border-radius: 50%;
+    position: relative;
+      top: 25%;
+      left: 16.6%;
+      display: block;
+     }
+    
+    
+    #moon:after {
+    background-color: #E30A17;
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 22.5%;
+        }
+    
+    
+    #star {
+      background-color: #FFFFFF;
+      position: relative;
+      left: 41.88vw;
+      top: -7.5vw;
+      width: 15vw;
+      height: 15vw;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      transform: rotate(-10deg)
+      
+    }
